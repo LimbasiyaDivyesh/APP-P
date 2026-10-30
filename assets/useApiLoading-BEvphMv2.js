@@ -1,0 +1,1 @@
+import{a as e}from"./reactVendor-CSrEHl5U.js";import{k as n,l as s}from"./index-Be_3fdbZ.js";const p=()=>{const[a,r]=e.useState(n()>0),[i,u]=e.useState(n());return e.useEffect(()=>{const t=()=>{const o=n();r(o>0),u(o)};return t(),window.addEventListener(s,t),()=>{window.removeEventListener(s,t)}},[]),{isLoading:a,count:i}};export{p as u};

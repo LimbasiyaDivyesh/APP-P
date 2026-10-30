@@ -1,0 +1,1 @@
+const a={gray:"#6b7280",blue:"#2563eb",green:"#16a34a",red:"#dc2626",amber:"#d97706",purple:"#7c3aed",pink:"#db2777",indigo:"#4f46e5",emerald:"#059669",teal:"#0d9488",cyan:"#0891b2",orange:"#ea580c"},n=/^#([0-9a-f]{3}|[0-9a-f]{6}|[0-9a-f]{8})$/i,t=e=>e?n.test(e)?e:a[e]||a.gray:a.gray,d=(e,r="33")=>`${e}${r}`;export{t as r,d as w};
